@@ -1,0 +1,25 @@
+//
+//  Prefix header
+//  posGrocer
+//  Developed by IntelLigenEthics>EcMa< for Zen Innovation(M) S.B June 2017.
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+enum
+{
+    syncStatusNone = 0,
+    syncStatusNeed = 1,
+    syncStatussyncchronized = 2,
+};
